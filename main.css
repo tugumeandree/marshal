@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.custom-height-attribute{
+    height: 200px;
+}
+
+.main-wrapper{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.slider-holder{
+    width: 100%;
+    height: 85vh;
+    position:absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.menu-holder{
+    width: 80%;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+
+.carousel{
+    height: 85vh !important;
+}
+
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-holder h1{
+    line-height: 7rem!important;
+}
+
+nav{
+    background: transparent;
+}
+
+.cc1{
+background-image: url(images/fam.jpg);
+}
+
+.cc2{
+    background-image:url(images/marshal.jpg)
+}
+
+.cc3{
+    background-image:url(images/trip4.jpg)
+}
+
+.cc4{
+    background-image:url(images/social.jpg)
+}
+
+.cc5{
+    background-image:url(images/back.jpg)
+}
+
+
+.cc6{
+background-image: url(images/covid.jpg);
+}
+
+.brand-logo{
+    width: 55PX;
+    height: 55px;
+}
+
+.cc1, .cc2, .cc3, .cc4, .cc5, .cc6{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* grid styling */
+.block-wrapper{
+height: 200px;
+width: 100%;
+text-align: center;
+}
+
+.gal-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gal-wrap img{
+   margin: 10px;
+}
+ /* 
+@media (max-width:760px){
+    .block-wrapper .material-icons{
+        font-size: 3rem;
+    }
+    .block-wrapper h5{
+        font-size: 1.3rem;
+    }
+   .block-wrapper .row .col {
+        float: none;
+        margin-top: 2rem;
+        border-bottom: 1rem;
+        padding-bottom: 1rem;
+        box-sizing: border-box;
+    }
+    .block-wrapper .row .col.m3{
+        width: 100%;
+    }
+} */
